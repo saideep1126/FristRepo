@@ -8,3 +8,14 @@ Key Services: Compute Engine, Cloud Storage, BigQuery, GKE, Vertex AI, Cloud Fun
 Local time: Wed 2026-01-21 00:27:49 IST
 Universal time: Tue 2026-01-20 18:57:49 UTC
 System clock synchronized: yes
+
+
+[root@ip-172-31-2-123 ~]# timedatectl set-timezone Asia/Kolkata
+[root@ip-172-31-2-123 ~]# timedatectl
+               Local time: Thu 2026-01-22 00:30:15 IST
+           Universal time: Wed 2026-01-21 19:00:15 UTC
+                 RTC time: Wed 2026-01-21 19:00:14
+                Time zone: Asia/Kolkata (IST, +0530)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
